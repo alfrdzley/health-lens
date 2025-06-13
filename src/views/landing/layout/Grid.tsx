@@ -1,6 +1,6 @@
 import React from "react";
 
-const Grid = (children: React.HTMLElementType) => {
+const Grid = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <div className="">{children}</div>
